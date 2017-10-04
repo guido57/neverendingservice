@@ -15,3 +15,4 @@ Logic Diagram Explanation
 - SensorService runs continuosly, even when screen is off or the device is in sleep mode. 
 - Whenever Android kills SensorService, onDestroy broadcasts an intent to SensorRestasterBroadcastReceiver
 - SensorRestasterBroadcastReceiver starts the SensorService service
+- The MainActivity is useless at the moment, but it can be filled with user interactions
